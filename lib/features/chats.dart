@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class Chats extends StatefulWidget {
   const Chats({super.key});
@@ -10,10 +10,8 @@ class Chats extends StatefulWidget {
 class _ChatsState extends State<Chats> {
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        Text('Chats'),
-      ],
+    return Scaffold(
+      body: Text('chats'),
     );
   }
 }

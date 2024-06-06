@@ -16,10 +16,8 @@ class _BottomnavbarState extends State<Bottomnavbar> {
 
   @override
   Widget build(BuildContext context) {
-    int red=81;
-    int green=212;
-    int blue=194;
-    Color mycolor =Color.fromARGB(255, red, green, blue);
+
+    Color mycolor =Colors.black;
     return Scaffold(
 
       body: bottomnavBody(bottomNavIndex),
